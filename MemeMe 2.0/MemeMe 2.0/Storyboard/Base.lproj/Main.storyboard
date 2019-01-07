@@ -33,7 +33,7 @@
                     <navigationItem key="navigationItem" id="ZCt-os-MD3">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="7Kh-ez-1Oc" userLabel="Create Meme">
                             <connections>
-                                <segue destination="SDd-cV-wni" kind="show" id="W2Y-WI-efv"/>
+                                <segue destination="SDd-cV-wni" kind="show" id="8wS-05-hck"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -54,7 +54,7 @@
         <!--Meme Editor View Controller-->
         <scene sceneID="p02-n0-z4b">
             <objects>
-                <viewController storyboardIdentifier="MemeEditorViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SDd-cV-wni" customClass="MemeEditorViewController" customModule="MemeMe" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemeEditorViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SDd-cV-wni" customClass="MemeEditorViewController" customModule="MemeMe_2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aev-xm-Mbo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,7 +149,6 @@
         <!--Collection-->
         <scene sceneID="7bR-DM-xiO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GHK-7b-8gG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="ade-yx-OzK" userLabel="Collection" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Collection View" id="9p6-oO-O2T" userLabel="Collection"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QdX-lo-8XU">
@@ -160,6 +159,7 @@
                         <segue destination="r7L-LA-6w7" kind="relationship" relationship="rootViewController" id="hpo-Pi-ebt"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GHK-7b-8gG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="454" y="-134"/>
         </scene>
