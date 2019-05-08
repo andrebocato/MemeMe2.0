@@ -9,4 +9,4 @@
 
 ## Objectives
 * "MemeMe 2.0" was created as a final exercise for the UIKit basics lessons of the Nanodegree.
-* This repository only serves as a reference to the old code, for . An updated and refactored version can be found [here](https://github.com/andrebocato/MemeMe.git).
+* This repository only serves as a reference to the old code, for. An updated and refactored version can be found [here](https://github.com/andrebocato/MemeMe.git).
